@@ -123,6 +123,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')    # location in the filesystem
+MEDIA_URL = '/media/'   # how image is access through the browser
+
 # crispy forms settings
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
