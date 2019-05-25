@@ -10,6 +10,8 @@ django = "*"
 django-crispy-forms = "*"
 pillow = "*"
 pillows = "*"
+"boto3" = "==1.5.0"
+django-storages = "==1.6.3"
 
 [requires]
 python_version = "3.7"
